@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link type="text/css" href="../style/style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/jquery-3.2.0.js"></script>
+    <script type="text/javascript" src="../js/test.js"></script>
+    <script type="text/javascript">
+
+    </script>
+
+</head>
+<body>
+<form id="testForm">
+
+    <label>爱好：</label>
+    <label>打球</label><input type="checkbox" value="1"/>
+    <label>唱歌</label><input type="checkbox" value="2"/>
+    <label>日期：</label><input type="date" />
+    <label>时间：</label><input type="time" />
+    <input type="file" id="inputFile"/><br>
+    <label>性别：</label>
+    <label>男</label><input type="radio" name="radio" value="1"/>
+    <label>女</label><input type="radio" name="radio" value="0"/>
+    <label>Email：</label><input type="email" value="email@163.com"/>
+    <label>网址：</label><input type="url" value="http://www.baidu.com"/>
+    <label>年龄：</label><input type="number" value="26"/><br>
+    <label>大小：</label><input type="range" value=0 id="range"/>
+    <label>背景颜色：</label><input type="color" id="color"/>
+    <input type="button" id="test" value="提交"/>
+    <input type="reset" value="重置"/>
+    <select id="select" style="width: 150px">
+        <!--<option value="0" style="color: #b6b6b6" disabled selected>&#45;&#45;请选择&#45;&#45;</option>-->
+        <option value="0" style="color: #b6b6b6" selected>--请选择--</option>
+        <option value="1">test1</option>
+        <option value="2">test2</option>
+        <option value="3">test3</option>
+        <option value="4">test4</option>
+        <option value="5" checked>test5</option>
+    </select>
+    <div id="div1" ondrop="drop(event)" ondragover="dragOver(event)" ondragstart="myDrag(event)" ></div>
+    <!--<img id="drag1" ondragstart="myDrag(event)" src="../imges/08.jpg" draggable="true">-->
+    <div id="file"></div>
+
+</form>
+</body>
+</html>

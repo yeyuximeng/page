@@ -1,0 +1,13 @@
+#div1{
+    width: auto;
+    height:180px;
+    border:1px solid black;
+}
+#drag1{
+    width: 320px;
+    height:180px;
+}
+*{
+    background-color: #3c3f41;
+    color: white;
+}
